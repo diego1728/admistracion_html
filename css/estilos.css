@@ -1,0 +1,112 @@
+
+
+
+html,body{
+
+background-size: cover;
+background-repeat: no-repeat;
+
+font-family: 'Roboto', sans-serif;
+
+}
+#navar{
+    background: #3c8dbc;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+#navar a, div{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.container{
+
+align-content: center;
+}
+
+
+.input-group-prepend span{
+width: 50px;
+
+color: black;
+border:0 !important;
+}
+
+
+.remember{
+color: white;
+}
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+
+#a_panel{
+    text-decoration: none; 
+
+}
+
+#panel:hover {
+    border: #A9D0F5 2px solid;
+    background: #F2F2F2;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+}
+
+
+
+.archivo-ubicacion-data{
+  border:1px solid #ddd;
+  border-left:0
+}
+
+.subir-archivos{
+  background: #f8f8f8;
+  padding-top: 10px;
+  padding-bottom:10px;
+  border-radius: 5px;
+}
+
+
+.carga-archivo-input {
+  position: relative;
+  overflow: hidden;
+  margin: 0px;    
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;    
+}
+.carga-archivo-input input[type=file] {
+  position: absolute;
+top: 0;
+right: 0;
+margin: 0;
+padding: 0;
+font-size: 20px;
+cursor: pointer;
+opacity: 0;
+filter: alpha(opacity=0);
+}
+.carga-archivo-input-title {
+  margin-left:2px;
+}
+
+
+
+   
+  
